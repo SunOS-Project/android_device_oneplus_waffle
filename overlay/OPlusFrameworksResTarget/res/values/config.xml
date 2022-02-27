@@ -213,8 +213,8 @@
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
-    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
-    
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
+
     <!-- The stable device width and height in pixels. If these aren't set to a positive number
           then the device will use the width and height of the default display the first time it's
           booted.  -->
