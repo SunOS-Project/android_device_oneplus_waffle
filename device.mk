@@ -10,17 +10,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Alert slider
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key-calibrate
 
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/configs/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 3216
-TARGET_SCREEN_WIDTH := 1440
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -33,7 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-sun
 
 PRODUCT_PACKAGES += \
     FrameworksResEuicc_EU \
@@ -43,10 +38,6 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare-service.oplus
 
 # Regional properties
 PRODUCT_COPY_FILES += \
