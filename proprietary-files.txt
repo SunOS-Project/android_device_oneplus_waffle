@@ -258,9 +258,6 @@ odm/firmware/tp/22825/sys_edge_touch_config.xml
 odm/firmware/tp/22825/sys_touch_algo_feature_config.xml
 odm/firmware/tp/22825/sys_touch_function_feature_config.xml
 
-# Vibrator
-odm/etc/aac_richtap.config
-
 # UFS firmware
 odm/firmware/ufs/SAMSUNG-KLUDG4UHDC-B0E1.bin
 odm/firmware/ufs/SAMSUNG-KLUEG4RHHD-B0G1.bin

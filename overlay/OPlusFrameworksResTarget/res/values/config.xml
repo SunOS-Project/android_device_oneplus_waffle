@@ -409,10 +409,10 @@
          config_mainBuiltInDisplayCutout
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
-        M -38,0
-        L -38,160
-        L 38,160
-        L 38,0
+        M -44,0
+        L -44,160
+        L 44,160
+        L 44,0
         Z
     </string>
 
@@ -421,4 +421,19 @@
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
+    <!-- Default volume panel position in portrait mode
+         0: Left side
+         1: Right side -->
+    <integer name="config_volumePanelPosPortDefault">1</integer>
+
+    <!-- Whether device has a centered cutout -->
+    <bool name="config_hasCenteredCutout">true</bool>
+
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>720</item>  <!-- <item>sensorLocationX</item> -->
+        <item>2353</item> <!-- <item>sensorLocationY</item> -->
+        <item>111</item>  <!-- <item>sensorRadius</item> -->
+    </integer-array>
+ 
 </resources>

@@ -11,10 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from waffle device
 $(call inherit-product, device/oneplus/waffle/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common SunOS stuff.
+$(call inherit-product, vendor/sun/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_waffle
+# Official
+SUN_BUILD_TYPE := Official
+
+PRODUCT_NAME := sun_waffle
 PRODUCT_DEVICE := waffle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -23,8 +26,6 @@ PRODUCT_MODEL := CPH2581
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="CPH2581EEA-user 15 AP3A.240617.008 U.R4T3.1d14f14-7e8f-1ddb6 release-keys" \
-    BuildFingerprint=OnePlus/CPH2581EEA/OP595DL1:15/AP3A.240617.008/U.R4T3.1d14f14-7e8f-1ddb6:user/release-keys \
     DeviceName=OP595DL1 \
     DeviceProduct=CPH2581 \
     SystemDevice=OP595DL1 \
