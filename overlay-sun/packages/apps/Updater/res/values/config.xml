@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="config_device_list" translatable="false">
+      <item>waffle</item>
+   </string-array>
+
+   <string-array name="config_maintainer_name_list" translatable="false">
+      <item>Chandu Dyavanapelli</item>
+   </string-array>
+
+   <string-array name="config_maintainer_link_list" translatable="false">
+      <item>https://t.me/Chandu_Dyavanapelli</item>
+   </string-array>
+
+   <string-array name="config_donate_list" translatable="false">
+      <item>https://www.paypal.com/paypalme/ChanduDyavanapelli</item>
+   </string-array>
+
+   <string-array name="config_group_list" translatable="false">
+      <item>https://t.me/sos_waffle</item>
+   </string-array>
+</resources>
