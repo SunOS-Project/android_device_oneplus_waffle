@@ -108,6 +108,7 @@ odm/firmware/fastchg/charge_time_config.csv
 odm/firmware/fastchg/smart_chg_config_table.txt
 
 # Display calibration data
+my_product/vendor/etc/display_apollo_list_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:vendor/etc/display_apollo_list_AA545_P_3_A0005_dsc_cmd_mode_panel.xml
 odm/etc/display/qdcm_calib_data_AA545_P_3_A0005_dsc_cmd_mode_panel.json
 
 # Display (Pixelworks)
