@@ -26,6 +26,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
+    FrameworksResEuicc_EU \
+    FrameworksResEuicc_NA \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
@@ -47,6 +49,13 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Telephony
+PRODUCT_PACKAGES += \
+    OplusEuicc
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
 # Vibrator
 PRODUCT_PACKAGES += \
