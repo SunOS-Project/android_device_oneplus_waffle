@@ -61,10 +61,10 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
+    android.hardware.vibrator.service-stub-richtap \
+    vendor.sun.hardware.vibratorExt-service.oplus
 
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
+$(call soong_config_set, STUB_VIBRATOR_HAL, USE_RICHTAP_V2, true)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
